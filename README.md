@@ -40,7 +40,7 @@ The dataset is extracted from a compressed archive:
 
 from zipfile import ZipFile
 
-data_path = "path/to/dataset.zip"
+data_path = "/content/drive/MyDrive/project/Lung Cancer Prediction using CNN.zip"
 with ZipFile(data_path, 'r') as zip:
     zip.extractall()
     print('The dataset has been extracted.')
@@ -123,7 +123,7 @@ How to Run
 
 Clone the repository:
 
-git clone https://github.com/your-repo-name.git
+git clone https://github.com/Lung-Cancer-Prediction-Using-CNN.git
 
 Install the required libraries:
 
